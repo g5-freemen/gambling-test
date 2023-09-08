@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards,
+.row {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+}
+
+.cards {
+  justify-content: space-between;
+}
+
+.showMoreButton {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: fit-content;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.showMoreButton:hover {
+  -webkit-box-shadow: 6px 6px 3px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 6px 3px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 6px 3px 0px rgba(0, 0, 0, 0.6);
+}

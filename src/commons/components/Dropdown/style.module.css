@@ -1,0 +1,37 @@
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+.button {
+  min-width: 15rem;
+  height: 30px;
+  border: solid 1px lightblue;
+  font-size: 18px;
+}
+
+.arrow {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  border: solid 1px lightblue;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.11), 0px 4px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  z-index: 99;
+}
+
+.dropdownMenuItem {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.dropdownMenuItem:hover {
+  transform: translateX(5%);
+}

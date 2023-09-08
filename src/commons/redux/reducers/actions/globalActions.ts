@@ -1,0 +1,3 @@
+export const SET_GAMESLIST = 'SET_GAMESLIST';
+export const SET_PROVIDERS = 'SET_PROVIDERS';
+export const SET_CURRENCIES = 'SET_CURRENCIES';
